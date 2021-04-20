@@ -8,7 +8,7 @@ import gensim
 from multiprocessing import Pool
 
 
-path_to_json = '/document_parses/pdf_json/'
+path_to_json = 'document_parses/pdf_json/'
 
 files = rs.readJsonFiles(path_to_json, 1000)
 
