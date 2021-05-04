@@ -10,7 +10,7 @@ import gensim
 
 # first we need to read all the json files
 path_to_json = 'document_parses/pdf_json/'
-files = rs.readJsonFiles(path_to_json, 5000)
+files = rs.readJsonFiles(path_to_json, 50000)
 
 
 # second we clean the files
@@ -40,7 +40,7 @@ print(" Creating a corpus took  " + str(endCreateCorpus - beginCreateCorpus))
 
 lda_model = tm.topic_modeling(cleaned_files, id2word, corpus)
 
-df_topic_doc_keywords = wr.format_topics_documents(lda_model, corpus, lemmatized_file)
+df_topic_doc_keywords = wr.format_topics_documents(lda_model, corpus, cleaned_files)
 
 topicsFile = "/home/administrator/data/python/topicsFromText.txt"
 
