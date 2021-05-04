@@ -29,16 +29,12 @@ def multi_word_units_bi_tri (documents:list) -> list:
    trigram = gensim.models.Phrases(bigram[documents], threshold=100)
    endTrigramTime = time.time()
    print ("trigrams are build in " + str(endTrigramTime - beginTrigramTime) + " seconds")  
+    # put the data in faster Frozen Phraser in order save resources
    bigram_mod = gensim.models.phrases.Phraser(bigram)
    trigram_mod = gensim.models.phrases.Phraser(trigram)
    print ("adding multi word units to the documents: ")
    beginProcessTime = time.time()
    
-   # put the data in faster Frozen Phraser in order save resources
-
-   bigram_mod = gensim.models.phrases.Phraser(bigram)
-   trigram_mod = gensim.models.phrases.Phraser(trigram)
-
    documents = [[word for word in gensim.utils.simple_preprocess(str(doc)) if word not in stop_words] for doc in documents]
    documents = [bigram_mod[doc] for doc in documents]
    documents = [trigram_mod[bigram_mod[doc]] for doc in documents]
@@ -48,15 +44,6 @@ def multi_word_units_bi_tri (documents:list) -> list:
    endProcessTime = time.time()
    print ("Building multiword Units of the words took " + str(endProcessTime - beginProcessTime) + " seconds")
    return documents
-
-/*
-
-*/
-
-
-
-
-
 
 
 # here we lemmatize the text, it is similar to stemming
@@ -103,7 +90,7 @@ def multi_word_units_multicore (documents:list) -> list:
    bigrams = p.join()
    
    endBigramTimeMulticore = time.time()
-   print ("Building multiword Units of the words took " + str(endBigramTimeMulticore - beginBigramTimeMulticore) + " seconds")
+   print ("Building multiword units of the words took " + str(endBigramTimeMulticore - beginBigramTimeMulticore) + " seconds")
    print (bigrams)
 
 
@@ -118,4 +105,27 @@ def chunkIt(seq, num):
 
     return out
 
-
+"""
+This function is a light version of multiword units running on one core and 
+using only bigramms
+"""
+def multi_word_units_bi (documents:list) -> list:
+   #print (documents[0])
+   print("Preprocessing the data, building multiword units of bigramms...")
+   # Build the bigram and trigram models
+   beginBigramTime = time.time()
+   bigram = gensim.models.Phrases(documents, min_count=5, threshold=100) # higher threshold fewer phrases.
+   endBigramTime = time.time()
+   print ("bigrams are build in " + str(endBigramTime - beginBigramTime) + " seconds")
+   # put the data in faster Frozen Phraser in order save resources
+   bigram_mod = gensim.models.phrases.Phraser(bigram)
+   print ("adding multi word units to the documents: ")
+   beginProcessTime = time.time()
+  
+   documents = [[word for word in gensim.utils.simple_preprocess(str(doc)) if word not in stop_words] for doc in documents]
+   documents = [bigram_mod[doc] for doc in documents]
+   #data_ready = process_words(documents)  # processed Text Data!
+   #print (documents[0])
+   endProcessTime = time.time()
+   print ("adding multiword units to the documents took " + str(endProcessTime - beginProcessTime) + " seconds")
+   return documents
