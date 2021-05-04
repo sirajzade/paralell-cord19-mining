@@ -5,45 +5,29 @@ import topicModeling as tm
 import writeResults as wr
 import time
 import gensim 
-from multiprocessing import Pool
 
 
+<<<<<<< Updated upstream
 path_to_json = 'document_parses/pdf_json/'
+=======
+>>>>>>> Stashed changes
 
+# first we need to read all the json files
+path_to_json = 'document_parses/pdf_json/'
 files = rs.readJsonFiles(path_to_json, 1000)
 
 
 
-############# start to reduce cleaning time ###################
+# second we clean the files
 
-beginCleaningTimeMultiCore = time.time()
-print ("Multicore cleaning the documents...")
-with Pool(6) as p:
-    cleaned_files = p.map(ct.clean_tokenize_multicore, files)
-endCleaningTimeMultiCore = time.time()
-print ("Data was multicore cleaned in "+ str(endCleaningTimeMultiCore - beginCleaningTimeMultiCore) + " seconds")
-print (str(len(cleaned_files)))
-#print (result[0])
- 
-
-#beginCleaningTime = time.time()
-#print ("One core cleaning the documents...")
-#cleaned_files = ct.clean_tokenize(files)
-#endCleaningTime = time.time()
-#print ("Data was one core cleaned in "+ str(endCleaningTime - beginCleaningTime) + " seconds")
-#print (str(len(cleaned_files)))
-#print (cleaned_files[0])
+cleaned_files = ct.clean_tokenize_multicore(files)
 
 
-########### start to reduce building multi word units ############
+########### start building multi word units ############
 
-multi_worded_file = pw.multi_word_units_multicore(cleaned_files)
-
+#multi_worded_file = pw.multi_word_units_multicore(cleaned_files)
 
 #multi_worded_file = pw.multi_word_units(cleaned_files)
-
-
-
 
 
 #lemmatized_file = pw.tag_lemmatize(multi_worded_file)

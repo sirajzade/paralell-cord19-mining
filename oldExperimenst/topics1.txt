@@ -1,0 +1,80 @@
+[(49,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (39,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (13,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (35,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (27,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (33,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (10,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (31,
+  '0.532*"treatment" + 0.289*"mhv" + 0.028*"label" + 0.000*"myeloperoxidase" + '
+  '0.000*"fj" + 0.000*"phosporylation" + 0.000*"antithrombin" + 0.000*"hocl" + '
+  '0.000*"hypochlorous" + 0.000*"intricacy"'),
+ (3,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (23,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (32,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (37,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (43,
+  '0.713*"protein" + 0.127*"bind" + 0.043*"identify" + 0.032*"virulent" + '
+  '0.018*"part" + 0.009*"whole" + 0.008*"per" + 0.008*"confirm" + 0.007*"loss" '
+  '+ 0.004*"prepare"'),
+ (12,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (16,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (26,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (22,
+  '0.255*"sample" + 0.249*"clinical" + 0.128*"method" + 0.105*"test" + '
+  '0.083*"collect" + 0.068*"perform" + 0.021*"suitable" + 0.014*"monitor" + '
+  '0.007*"variability" + 0.000*"miami"'),
+ (1,
+  '0.170*"strain" + 0.155*"sequence" + 0.129*"type" + 0.083*"isolate" + '
+  '0.065*"orf" + 0.062*"different" + 0.051*"analysis" + 0.045*"genetic" + '
+  '0.031*"phylogenetic" + 0.026*"within"'),
+ (25,
+  '0.344*"virus" + 0.196*"infection" + 0.082*"replication" + 0.048*"role" + '
+  '0.046*"induce" + 0.036*"infect" + 0.025*"inhibit" + 0.025*"ifn" + '
+  '0.022*"several" + 0.019*"play"'),
+ (2,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"')]

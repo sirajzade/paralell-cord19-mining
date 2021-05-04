@@ -1,6 +1,7 @@
 import time
 import re
 import gensim
+from multiprocessing import Pool
 
 # This function cleans the text data; it replaces not usefull information like emails
 # also it cleans undesired characters 
@@ -29,7 +30,7 @@ def clean_tokenize(documents: list)->list:
 
 
 
-def clean_tokenize_multicore(doc: str)->str:
+def clean_tokenize_function(doc: str)->str:
   i = 0
     #doc = doc.decode('utf-8')
     #print (type(doc))
@@ -45,3 +46,24 @@ def clean_tokenize_multicore(doc: str)->str:
   #i+=1
   #print (i)
   return doc
+
+
+"""
+This method is for multicore cleaning
+
+"""
+def clean_tokenize_multicore(files:list)->list:
+  ############# start to reduce cleaning time ###################
+
+  beginCleaningTimeMultiCore = time.time()
+  print ("Multicore cleaning the documents...")
+  with Pool(6) as p:
+    cleaned_files = p.map(clean_tokenize_function, files)
+  endCleaningTimeMultiCore = time.time()
+  print ("Data was multicore cleaned in "+ str(endCleaningTimeMultiCore - beginCleaningTimeMultiCore) + " seconds")
+  #print (str(len(cleaned_files)))
+  #print (result[0])
+  return cleaned_files
+
+
+

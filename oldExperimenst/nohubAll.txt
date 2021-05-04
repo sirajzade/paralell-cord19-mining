@@ -1,0 +1,17 @@
+Preprocessing the data, building bigramms and trigramms...
+Start building an LDA model...
+LDA done, start writing files...
+    Document_No  Dominant_Topic
+0             0            11.0
+1             1            36.0
+2             2             7.0
+3             3            21.0
+4             4             6.0
+..          ...             ...
+95           95            14.0
+96           96             6.0
+97           97            20.0
+98           98            13.0
+99           99             6.0
+
+[100 rows x 2 columns]

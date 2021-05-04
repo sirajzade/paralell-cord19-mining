@@ -1,0 +1,160 @@
+[(0,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (1,
+  '0.056*"rate" + 0.055*"compare" + 0.042*"high" + 0.037*"time" + '
+  '0.036*"increase" + 0.027*"measure" + 0.025*"reduce" + 0.023*"result" + '
+  '0.022*"method" + 0.020*"low"'),
+ (2,
+  '0.499*"case" + 0.061*"cns" + 0.058*"late" + 0.052*"majority" + 0.032*"dog" '
+  '+ 0.032*"encephalitis" + 0.027*"canine" + 0.014*"sa" + 0.011*"occur" + '
+  '0.010*"respective"'),
+ (3,
+  '0.371*"rna" + 0.055*"synthesis" + 0.044*"viral" + 0.043*"genome" + '
+  '0.028*"polymerase" + 0.027*"sequence" + 0.027*"genomic" + '
+  '0.025*"nucleotide" + 0.025*"end" + 0.024*"contain"'),
+ (4,
+  '0.074*"mortality" + 0.057*"survival" + 0.040*"mechanism" + '
+  '0.034*"macrophage" + 0.033*"focus" + 0.032*"distribution" + 0.031*"pathway" '
+  '+ 0.029*"importance" + 0.027*"core" + 0.026*"interferon"'),
+ (5,
+  '0.157*"orf" + 0.067*"recombination" + 0.060*"ii" + 0.060*"site" + '
+  '0.054*"region" + 0.044*"nt" + 0.037*"mab" + 0.034*"cluster" + '
+  '0.033*"antigenic" + 0.029*"identity"'),
+ (6,
+  '0.036*"method" + 0.035*"approach" + 0.033*"sample" + 0.032*"test" + '
+  '0.024*"system" + 0.024*"detect" + 0.023*"detection" + 0.021*"range" + '
+  '0.020*"base" + 0.019*"include"'),
+ (7,
+  '0.117*"virus" + 0.076*"sequence" + 0.058*"strain" + 0.050*"gene" + '
+  '0.043*"genome" + 0.033*"isolate" + 0.023*"analysis" + 0.022*"tgev" + '
+  '0.019*"viral" + 0.017*"two"'),
+ (8,
+  '0.151*"specie" + 0.112*"family" + 0.071*"member" + 0.068*"define" + '
+  '0.065*"species" + 0.042*"genus" + 0.037*"plant" + 0.034*"lineage" + '
+  '0.031*"stress" + 0.028*"possess"'),
+ (9,
+  '0.138*"candidate" + 0.100*"specifically" + 0.084*"intracellular" + '
+  '0.082*"capsid" + 0.067*"continue" + 0.051*"raise" + 0.045*"precursor" + '
+  '0.041*"toward" + 0.030*"order" + 0.027*"coli"'),
+ (10,
+  '0.195*"model" + 0.165*"antiviral" + 0.096*"hiv" + 0.063*"target" + '
+  '0.044*"therapy" + 0.042*"work" + 0.040*"efficacy" + 0.027*"current" + '
+  '0.023*"approach" + 0.017*"evaluate"'),
+ (11,
+  '0.143*"gene" + 0.107*"expression" + 0.058*"mrna" + 0.046*"induce" + '
+  '0.041*"apoptosis" + 0.038*"porcine" + 0.025*"regulate" + 0.025*"increase" + '
+  '0.024*"bovine" + 0.021*"piglet"'),
+ (12,
+  '0.371*"undergo" + 0.179*"length" + 0.060*"requirement" + 0.060*"necessary" '
+  '+ 0.051*"start" + 0.043*"nucleic_acid" + 0.022*"overlap" + '
+  '0.008*"essential" + 0.005*"observation" + 0.000*"myeloperoxidase"'),
+ (13,
+  '0.043*"mouse" + 0.037*"response" + 0.037*"infection" + 0.030*"disease" + '
+  '0.024*"antibody" + 0.023*"animal" + 0.023*"tissue" + 0.021*"lung" + '
+  '0.020*"level" + 0.019*"immune"'),
+ (14,
+  '0.296*"protein" + 0.045*"express" + 0.041*"spike" + 0.037*"host" + '
+  '0.036*"describe" + 0.032*"bind" + 0.028*"interaction" + 0.025*"structural" '
+  '+ 0.021*"recombinant" + 0.021*"mechanism"'),
+ (15,
+  '0.237*"severe" + 0.107*"assays" + 0.042*"elisa" + 0.039*"life_cycle" + '
+  '0.035*"implication" + 0.035*"kinase" + 0.033*"mild" + 0.031*"rescue" + '
+  '0.030*"ab" + 0.025*"mg"'),
+ (16,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (17,
+  '0.000*"intricacy" + 0.000*"myeloperoxidase" + 0.000*"multitargeted" + '
+  '0.000*"myelogenous" + 0.000*"phosporylation" + 0.000*"antithrombin" + '
+  '0.000*"hocl" + 0.000*"hypochlorous" + 0.000*"cml" + 0.000*"nelder"'),
+ (18,
+  '0.138*"short" + 0.086*"hrv" + 0.085*"consecutive" + 0.065*"along" + '
+  '0.056*"transfer" + 0.052*"homology" + 0.045*"rhinovirus" + '
+  '0.044*"efficiency" + 0.043*"serotype" + 0.042*"overcome"'),
+ (19,
+  '0.227*"pedv" + 0.178*"control" + 0.121*"period" + 0.068*"dose" + '
+  '0.043*"area" + 0.040*"per" + 0.036*"transmit" + 0.021*"survive" + '
+  '0.020*"cover" + 0.020*"rabbit"'),
+ (20,
+  '0.084*"sars" + 0.061*"human" + 0.052*"virus" + 0.047*"influenza" + '
+  '0.046*"disease" + 0.036*"infection" + 0.033*"risk" + 0.026*"cause" + '
+  '0.025*"review" + 0.024*"outbreak"'),
+ (21,
+  '0.031*"study" + 0.017*"result" + 0.015*"host" + 0.015*"factor" + '
+  '0.014*"include" + 0.014*"analysis" + 0.014*"provide" + 0.013*"identify" + '
+  '0.013*"show" + 0.013*"different"'),
+ (22,
+  '0.345*"vaccine" + 0.122*"glycoprotein" + 0.087*"epitope" + '
+  '0.052*"neutralize" + 0.038*"specific" + 0.036*"neutralization" + 0.026*"aa" '
+  '+ 0.025*"design" + 0.021*"base" + 0.018*"africa"'),
+ (23,
+  '0.144*"virus" + 0.076*"viral" + 0.050*"infection" + 0.046*"replication" + '
+  '0.025*"induce" + 0.022*"cell" + 0.018*"activity" + 0.017*"inhibit" + '
+  '0.015*"drug" + 0.014*"treatment"'),
+ (24,
+  '0.047*"protein" + 0.040*"domain" + 0.033*"bind" + 0.029*"activity" + '
+  '0.026*"membrane" + 0.026*"mutation" + 0.023*"amino_acid" + 0.022*"mutant" + '
+  '0.022*"residue" + 0.022*"encode"'),
+ (25,
+  '0.193*"symptom" + 0.160*"association" + 0.157*"genotype" + 0.155*"cat" + '
+  '0.076*"feline" + 0.015*"japan" + 0.014*"collect" + 0.010*"bocavirus" + '
+  '0.008*"fece" + 0.005*"mainly"'),
+ (26,
+  '0.083*"improve" + 0.075*"gp" + 0.062*"dna" + 0.058*"vector" + '
+  '0.049*"diagnosis" + 0.035*"extract" + 0.028*"ha" + 0.027*"sensitivity" + '
+  '0.026*"comparable" + 0.024*"adenovirus"'),
+ (27,
+  '0.190*"technique" + 0.078*"size" + 0.077*"cm" + 0.073*"less" + '
+  '0.052*"single" + 0.047*"large" + 0.042*"standard" + 0.041*"approximately" + '
+  '0.036*"small" + 0.030*"minor"'),
+ (28,
+  '0.171*"mean" + 0.143*"ifn" + 0.119*"assess" + 0.112*"score" + '
+  '0.057*"average" + 0.040*"general" + 0.031*"value" + 0.019*"interferon_ifn" '
+  '+ 0.018*"moderate" + 0.018*"curve"'),
+ (29,
+  '0.112*"construct" + 0.112*"vero" + 0.103*"segment" + 0.084*"promoter" + '
+  '0.072*"element" + 0.058*"reporter" + 0.054*"modification" + '
+  '0.043*"localization" + 0.031*"parallel" + 0.021*"highly_conserve"'),
+ (30,
+  '0.395*"role" + 0.154*"play" + 0.087*"repair" + 0.045*"molecule" + '
+  '0.030*"complement" + 0.029*"probably" + 0.022*"regulate" + 0.021*"loss" + '
+  '0.013*"unusual" + 0.012*"transmembrane"'),
+ (31,
+  '0.073*"strategy" + 0.064*"process" + 0.055*"overall" + 0.046*"current" + '
+  '0.035*"kda" + 0.034*"link" + 0.034*"translation" + 0.034*"aim" + '
+  '0.025*"potentially" + 0.022*"life"'),
+ (32,
+  '0.268*"cell" + 0.048*"infection" + 0.038*"cd" + 0.033*"response" + '
+  '0.032*"mediate" + 0.027*"activation" + 0.027*"expression" + 0.027*"human" + '
+  '0.026*"receptor" + 0.026*"type"'),
+ (33,
+  '0.164*"fusion" + 0.146*"entry" + 0.100*"cell" + 0.093*"particle" + '
+  '0.090*"virion" + 0.081*"surface" + 0.038*"release" + 0.029*"transport" + '
+  '0.026*"process" + 0.020*"enter"'),
+ (34,
+  '0.184*"step" + 0.155*"adult" + 0.154*"cycle" + 0.106*"rv" + 0.036*"hold" + '
+  '0.020*"similarly" + 0.020*"penetration" + 0.019*"besides" + '
+  '0.012*"adsorption" + 0.010*"unaffected"'),
+ (35,
+  '0.132*"require" + 0.105*"co" + 0.058*"exposure" + 0.047*"influence" + '
+  '0.044*"ph" + 0.039*"passage" + 0.037*"since" + 0.036*"source" + '
+  '0.032*"cell_lines" + 0.030*"kidney"'),
+ (36,
+  '0.117*"patient" + 0.062*"group" + 0.042*"study" + 0.025*"perform" + '
+  '0.022*"procedure" + 0.022*"result" + 0.021*"year" + 0.019*"significantly" + '
+  '0.019*"outcome" + 0.018*"clinical"'),
+ (37,
+  '0.152*"peptide" + 0.127*"via" + 0.107*"aim" + 0.079*"second" + '
+  '0.068*"cross" + 0.041*"hsv" + 0.041*"minimal" + 0.021*"predominantly" + '
+  '0.020*"na" + 0.018*"reactive"'),
+ (38,
+  '0.099*"pathogenicity" + 0.087*"rat" + 0.083*"organ" + 0.073*"expose" + '
+  '0.067*"generation" + 0.066*"route" + 0.065*"body" + 0.039*"document" + '
+  '0.035*"return" + 0.031*"development"'),
+ (39,
+  '0.249*"mhv" + 0.153*"ibv" + 0.054*"murine" + 0.049*"protection" + '
+  '0.034*"strain" + 0.025*"mhv_jhm" + 0.021*"evolve" + 0.021*"kb" + '
+  '0.020*"alter" + 0.017*"confer"')]

@@ -14,8 +14,10 @@ from multiprocessing import Pool, Process, Value, Array
 stop_words = stopwords.words('english')
 stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'not', 'would', 'say', 'could', '_', 'be', 'know', 'good', 'go', 'get', 'do', 'done', 'try', 'many', 'some', 'nice', 'thank', 'think', 'see', 'rather', 'easy', 'easily', 'lot', 'lack', 'make', 'want', 'seem', 'run', 'need', 'even', 'right', 'line', 'even', 'also', 'may', 'take', 'come'])
 
-
-def multi_word_units (documents:list) -> list:
+"""
+This method tries to annotate bigram and trigram collacations in the text 
+"""
+def multi_word_units_bi_tri (documents:list) -> list:
    #print (documents[0])
    print("Preprocessing the data, building multiword units of bigramms and trigramms...")
    # Build the bigram and trigram models
@@ -46,6 +48,15 @@ def multi_word_units (documents:list) -> list:
    endProcessTime = time.time()
    print ("Building multiword Units of the words took " + str(endProcessTime - beginProcessTime) + " seconds")
    return documents
+
+/*
+
+*/
+
+
+
+
+
 
 
 # here we lemmatize the text, it is similar to stemming
@@ -78,7 +89,7 @@ def tag_lemmatize (documents:list) -> list:
 
 def makePhrasesCallabe(phrases, documents):
    phrases = gensim.models.Phrases(documents, min_count=5, threshold=100) 
-
+   return phrases
 
 def multi_word_units_multicore (documents:list) -> list:
    #print (documents[0])
@@ -87,15 +98,13 @@ def multi_word_units_multicore (documents:list) -> list:
    beginBigramTimeMulticore = time.time()
    #devided = chunkIt(documents, 6)
    
-   num = Array('i', gensim.models.Phrases)
-   arr = Array('i', documents)
-   p = Process(target=makePhrasesCallabe, args=(num, arr))
+   p = Process(target=makePhrasesCallabe, args=(gensim.models.Phrases, documents))
    p.start()
-   p.join()
-
+   bigrams = p.join()
+   
    endBigramTimeMulticore = time.time()
-   #print ("Building multiword Units of the words took " + str(endProcessTime - beginProcessTime) + " seconds")
-   return documents
+   print ("Building multiword Units of the words took " + str(endBigramTimeMulticore - beginBigramTimeMulticore) + " seconds")
+   print (bigrams)
 
 
 def chunkIt(seq, num):

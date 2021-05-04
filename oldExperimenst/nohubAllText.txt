@@ -1,0 +1,11 @@
+The files were opened and loaded into the memory!...
+Preprocessing the data, building bigramms and trigramms...
+This is for example the bigram data:
+<gensim.models.phrases.Phraser object at 0x7fae4114e6a0>
+this is the text after bigramis:
+Traceback (most recent call last):
+  File "mineFromTextFiles.py", line 124, in <module>
+    data_ready = process_words(data_words)  # processed Text Data!
+  File "mineFromTextFiles.py", line 46, in process_words
+    print (texts)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u03b2' in position 5100: ordinal not in range(128)
