@@ -56,7 +56,7 @@ def clean_tokenize_multicore(files:list)->list:
   ############# start to reduce cleaning time ###################
 
   beginCleaningTimeMultiCore = time.time()
-  print ("Multicore cleaning the documents...")
+  print ("Multicore cleaning the documents...startet at " + str(time.ctime(time.time())))
   with Pool(6) as p:
     cleaned_files = p.map(clean_tokenize_function, files)
   endCleaningTimeMultiCore = time.time()

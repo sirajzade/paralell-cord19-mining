@@ -7,10 +7,10 @@ import time
 import gensim 
 
 
-
+print ("the script was started at ", time.ctime(time.time()))
 # first we need to read all the json files
 path_to_json = 'document_parses/pdf_json/'
-files = rs.readJsonFiles(path_to_json, 50000)
+files = rs.readJsonFiles(path_to_json, 20000)
 
 
 # second we clean the files
@@ -47,3 +47,5 @@ topicsFile = "/home/administrator/data/python/topicsFromText.txt"
 top2docFile = '/home/administrator/data/python/topToDocFromText.txt'
 
 wr.write_results (lda_model, df_topic_doc_keywords, topicsFile, top2docFile)
+
+print ("the script ended at ", time.ctime(time.time()))

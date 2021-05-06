@@ -1,6 +1,6 @@
 import gensim
 import time
-
+import datetime
 # here we build frequencies from the corpus
 # In goes a list of documents
 # Out comes a trained gensim model
@@ -24,5 +24,6 @@ def topic_modeling (documents:list, id2word, corpus):
 
   #pprint(lda_model.print_topics())
   endLDATime = time.time()
-  print("LDA done, it took " + str(endLDATime - beginLDATime) + " start writing files...")
+  difference = endLDATime - beginLDATime
+  print("LDA done, it took " + str(difference) + " or " + str(datetime.timedelta(difference)) + " start writing files...")
   return lda_model
