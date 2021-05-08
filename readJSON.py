@@ -24,7 +24,7 @@ def readJsonFiles (json_dir:str, max_number_files:int) -> list:
                 #print("ctext is growing" + str(len(ctext)))
             real_text_data.append(str(ctext.encode('utf-8')))
             if index % 1000 == 0: 
-                print ("index: " + str(index))
+                print ("index: " + str(index) + " files were red into memory! ")
             if (index == max_number_files):
                 break
     endRead = time.time()

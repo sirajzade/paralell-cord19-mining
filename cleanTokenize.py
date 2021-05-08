@@ -32,6 +32,7 @@ def clean_tokenize(documents: list)->list:
 
 def clean_tokenize_function(doc: str)->str:
   i = 0
+  #print (multiprocessing.current_process())
     #doc = doc.decode('utf-8')
     #print (type(doc))
   doc = re.sub('\S*@\S*\s?', '', doc)  # remove emails
@@ -57,8 +58,9 @@ def clean_tokenize_multicore(files:list)->list:
 
   beginCleaningTimeMultiCore = time.time()
   print ("Multicore cleaning the documents...startet at " + str(time.ctime(time.time())))
-  with Pool(6) as p:
+  with Pool(4) as p:
     cleaned_files = p.map(clean_tokenize_function, files)
+    print("Pool was startet: ")
   endCleaningTimeMultiCore = time.time()
   print ("Data was multicore cleaned in "+ str(endCleaningTimeMultiCore - beginCleaningTimeMultiCore) + " seconds")
   #print (str(len(cleaned_files)))

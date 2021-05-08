@@ -5,7 +5,7 @@ import datetime
 # In goes a list of documents
 # Out comes a trained gensim model
 
-def topic_modeling (documents:list, id2word, corpus):
+def topic_modeling (id2word, corpus):
 
   print("Start building an LDA model...")
   beginLDATime = time.time()
